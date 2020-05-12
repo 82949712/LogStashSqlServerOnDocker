@@ -1,0 +1,8 @@
+version: "3.2"
+services:
+  logstash:
+    build: .
+    environment: 
+      - XPACK_MONITORING_ENABLED=false
+    
+      
