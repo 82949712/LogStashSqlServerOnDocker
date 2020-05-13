@@ -4,5 +4,7 @@ services:
     build: .
     environment: 
       - XPACK_MONITORING_ENABLED=false
+    dns:
+      - 10.10.1.6
     
       
